@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian Takita"]
-  s.date = %q{2009-09-19}
+  s.date = %q{2009-09-25}
   s.description = %q{RR (Double Ruby) is a double framework that features a rich selection of double techniques and a terse syntax. http://xunitpatterns.com/Test%20Double.html}
   s.email = %q{brian@pivotallabs.com}
   s.extra_rdoc_files = [
@@ -42,7 +42,6 @@ Gem::Specification.new do |s|
      "lib/rr/double_definitions/strategies/verification/mock.rb",
      "lib/rr/double_definitions/strategies/verification/stub.rb",
      "lib/rr/double_definitions/strategies/verification/verification_strategy.rb",
-     "lib/rr/double_injection.rb",
      "lib/rr/double_matches.rb",
      "lib/rr/errors/argument_equality_error.rb",
      "lib/rr/errors/double_definition_error.rb",
@@ -59,6 +58,9 @@ Gem::Specification.new do |s|
      "lib/rr/expectations/argument_equality_expectation.rb",
      "lib/rr/expectations/times_called_expectation.rb",
      "lib/rr/hash_with_object_id_key.rb",
+     "lib/rr/injections/double_injection.rb",
+     "lib/rr/injections/injection.rb",
+     "lib/rr/injections/method_missing_injection.rb",
      "lib/rr/method_dispatches/base_method_dispatch.rb",
      "lib/rr/method_dispatches/method_dispatch.rb",
      "lib/rr/method_dispatches/method_missing_dispatch.rb",
